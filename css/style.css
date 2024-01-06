@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.welcome{
+    font-size: 45px;
+}
+
+.tittle_0_p{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 20px;
+    padding: 5px 200px;
+}
+
+nav{
+    font-size: 24px;
+    display: flex;
+    gap: .3125rem;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+main{
+    background-color: #f5e4d785;
+}
+
+.tittle_h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.tittle_p{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+header{
+    background-color: #af8686a9;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.tittle_0{
+ text-align: center;
+}
+
+.tittle{
+text-align: center;
+
+}
+
+.card_container{
+    position: relative;
+    display: flex;
+    gap: 15px;
+    margin: 20 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;    
+}
+
+.card_img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px 70px;
+}
+
+
+.card_1{
+    position: relative;
+    display: inline-block;
+}
+.card_2{
+    position: relative;
+    display: inline-block;
+}
+.card_3{
+    position: relative;
+    display: inline-block;
+}
+.card_4{
+    position: relative;
+    display: inline-block;
+}
+.card_5{
+    position: relative;
+    display: inline-block;
+}
+.card_6{
+    position: relative;
+    display: inline-block;
+}
+
+.card_p{
+     position: absolute;
+     bottom: 40px;
+     left: 90px;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.recom_card_container{
+    width: 100%;
+    display: flex;
+    gap: .3125rem;
+}
+
+.recom_card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #f5e4d785;
+}
+
+.recom_card img{
+    width: 100%;
+    height: 210px;
+}
+
+.recom_card_text{
+    padding: 15px;
+    text-align: center;
+}
+
+.container_info{
+    padding: 10px 50px;
+}
+
+.container_info p{
+    text-align: center;
+    padding: 7px;
+}
+
+.container_info h2{
+    text-align: center;
+}
+
+.destiny_container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 70px;
+    padding-bottom: 20px;
+}
+
+.destiny_img_container{
+    padding: 20px 15px;
+}   
+
+.destiny_img_container img{
+    height: 90vh;
+    border-radius: 30px;
+    padding-right: 10px;
+    max-width: 700px;
+}
+
+.destiny_img_container h3{
+    position: absolute;
+    left: 15%;
+    font-size: 80px;
+} 
+
+.destiny{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #af8686;
+    display: flex;
+    padding: 20px 35px;
+}
+
+.destiny_text{
+    height: 90vh;
+    border-radius: 20px;
+    background-color: #a36b61ba;
+    padding: 25px 18px;
+    text-align: justify;
+    margin: 20px 50px;
+    overflow: hidden;
+}
+
+.card_travel_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
+    padding: 30px 25px 30px 2px;
+}
+
+.travel_card{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #855454;
+    overflow: hidden;
+}
+
+.travel_card img{
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.travel_card h3{
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 30px;
+}
+
+.travel_card p{
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 80px;
+    position: relative;
+    bottom: 7px;
+    left: 15px;
+
+}
+
+.form{
+    height: 100vh;
+}
+
+.form p{
+    text-align: center;
+    padding: 35px;
+}
+
+.form p a{
+    text-decoration: none;
+    color: #996666d2;
+    margin-left: 15px;
+}
+
+.form p a:hover{
+    text-decoration: underline;
+}
+
+.is_container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (width <= 1276px) {
+    *{
+        width: fit-content;
+    }
+
+    header{
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav{
+        display: flex;
+    }
+
+    .welcome{
+        padding-left: 100px;
+    }
+
+    .tittle_p{
+        padding-left: 100px;
+    }
+
+    .tittle_h2{
+        padding-left: 100px;
+    }
+
+    @media (min-width: 320px), (max-width: 1024px) {
+        .recom_card_container{
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+        }
+
+        .recom_card{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .recom_card figure {
+            width: 100%;
+        }
+
+        .recom_card_text{
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card_travel_container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        }
+    }
+
+footer{
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
