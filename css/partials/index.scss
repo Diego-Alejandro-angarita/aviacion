@@ -1,0 +1,91 @@
+main {
+    background-color: rgba(245, 228, 215, 0.5215686275);
+
+    .tittle_0 {
+        text-align: center;
+      }
+
+      .tittle_0_p {
+        text-align: center;
+        font-size: 25px;
+        margin: 5px 20px;
+        padding: 5px 200px;
+      }
+
+      .tittle {
+        text-align: center;
+
+        .tittle_h2 {
+            font-size: 35px;
+            text-align: center;
+          }
+
+          .tittle_p {
+            font-size: 25px;
+          }
+      }
+
+      .card_container {
+        position: relative;
+        display: flex;
+        gap: 15px;
+        margin: 20 50px;
+        padding: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            .card_img {
+                width: 400px;
+                height: 250px;
+                border-radius: 20px;
+                padding: 5px;
+                margin: 15px 70px;
+              }
+
+              .card_p {
+                position: absolute;
+                bottom: 40px;
+                left: 90px;
+                font-size: 35px;
+                color: aliceblue;
+              }
+
+              @for $i from 1 through 6 {
+                .card_#{$i} {
+                    position: relative;
+                    display: inline-block;
+                }
+              }
+          }
+
+      }
+
+      .recom_card_container {
+        width: 100%;
+        display: flex;
+        gap: 0.3125rem;
+
+        .recom_card {
+            width: 100%;
+            margin: 20px;
+            border-radius: 20px;
+            background-color: rgba(245, 228, 215, 0.5215686275);
+
+            .recom_card img {
+                width: 100%;
+                height: 210px;
+              }
+
+              .recom_card_text{
+                padding: 15px;
+                text-align: center;
+            }
+          }
+      }
+
+  }

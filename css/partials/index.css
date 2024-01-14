@@ -1,0 +1,93 @@
+main {
+  background-color: rgba(245, 228, 215, 0.5215686275);
+}
+main .tittle_0 {
+  text-align: center;
+}
+main .tittle_0_p {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 20px;
+  padding: 5px 200px;
+}
+main .tittle {
+  text-align: center;
+}
+main .tittle .tittle_h2 {
+  font-size: 35px;
+  text-align: center;
+}
+main .tittle .tittle_p {
+  font-size: 25px;
+}
+main .card_container {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  margin: 20 50px;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main .card_container .card {
+  display: flex;
+  flex-direction: column;
+}
+main .card_container .card .card_img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 15px 70px;
+}
+main .card_container .card .card_p {
+  position: absolute;
+  bottom: 40px;
+  left: 90px;
+  font-size: 35px;
+  color: aliceblue;
+}
+main .card_container .card .card_1 {
+  position: relative;
+  display: inline-block;
+}
+main .card_container .card .card_2 {
+  position: relative;
+  display: inline-block;
+}
+main .card_container .card .card_3 {
+  position: relative;
+  display: inline-block;
+}
+main .card_container .card .card_4 {
+  position: relative;
+  display: inline-block;
+}
+main .card_container .card .card_5 {
+  position: relative;
+  display: inline-block;
+}
+main .card_container .card .card_6 {
+  position: relative;
+  display: inline-block;
+}
+main .recom_card_container {
+  width: 100%;
+  display: flex;
+  gap: 0.3125rem;
+}
+main .recom_card_container .recom_card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgba(245, 228, 215, 0.5215686275);
+}
+main .recom_card_container .recom_card .recom_card img {
+  width: 100%;
+  height: 210px;
+}
+main .recom_card_container .recom_card .recom_card_text {
+  padding: 15px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

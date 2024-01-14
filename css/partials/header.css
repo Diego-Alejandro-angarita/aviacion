@@ -1,0 +1,33 @@
+header {
+  background-color: rgba(175, 134, 134, 0.662745098);
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+header h1 {
+  font-size: 50px;
+}
+header nav {
+  font-size: 24px;
+  display: flex;
+  gap: 0.3125rem;
+  flex-wrap: wrap;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 24px;
+}
+header nav a a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}/*# sourceMappingURL=header.css.map */

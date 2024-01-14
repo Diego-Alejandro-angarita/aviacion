@@ -1,0 +1,61 @@
+@media (width <= 1276px) {
+    *{
+        width: fit-content;
+    }
+
+    header{
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav{
+        display: flex;
+    }
+
+    .welcome{
+        padding-left: 100px;
+    }
+
+    .tittle_p{
+        padding-left: 100px;
+    }
+
+    .tittle_h2{
+        padding-left: 100px;
+    }
+
+    @media (min-width: 320px), (max-width: 1024px) {
+        .recom_card_container{
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+        }
+
+        .recom_card{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .recom_card figure {
+            width: 100%;
+        }
+
+        .recom_card_text{
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card_travel_container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        }
+    }

@@ -1,0 +1,38 @@
+main{
+    .destiny_container{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 70px;
+        padding-bottom: 20px;
+
+        .destiny{
+            .destiny_img_container{
+                padding: 20px 15px;
+
+                .destiny_img_container h3{
+                    position: absolute;
+                    left: 15%;
+                    font-size: 80px;
+                } 
+
+                .destiny_img_container img{
+                    height: 90vh;
+                    border-radius: 30px;
+                    padding-right: 10px;
+                    max-width: 700px;
+                }
+                
+            }
+
+            .destiny_text{
+                height: 90vh;
+                border-radius: 20px;
+                background-color: #a36b61ba;
+                padding: 25px 18px;
+                text-align: justify;
+                margin: 20px 50px;
+                overflow: hidden;
+            }
+        }
+    }
+}
