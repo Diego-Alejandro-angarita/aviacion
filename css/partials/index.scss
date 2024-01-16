@@ -59,6 +59,11 @@ main {
                 .card_#{$i} {
                     position: relative;
                     display: inline-block;
+                    transition: 1.5s;
+
+                    & .card_#{$i}:hover {
+                        transform: translate(50px, 50px);
+                    }
                 }
               }
           }
