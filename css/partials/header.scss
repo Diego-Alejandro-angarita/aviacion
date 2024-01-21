@@ -4,15 +4,15 @@ header{
     display: flex;
     justify-content: space-between;
 
+    h1 {
+      font-size: 50px;
+    }
+
     .logo{
         width: 100px;
         height: 100px;
         border-radius: 20px;
     }
-
-    h1 {
-        font-size: 50px;
-      }
 
       nav {
         font-size: 24px;
@@ -24,16 +24,17 @@ header{
             display: flex;
             gap: 30px;
             list-style: none;
-          }
 
-          a{
-            text-decoration: none;
-            font-size: 24px;
-
-            & a:hover{
-                color: #ffffff;
-                text-decoration: underline;
+            li{
+              a{
+                text-decoration: none;
+                font-size: 24px;
             }
-        }
+    
+            a:hover{
+              color: rgb(228, 232, 236);
+            }
+            }
+          }
       }
 }

@@ -2,4 +2,6 @@ footer {
   font-size: 25px;
   padding: 10px;
   text-align: center;
+  position: relative;
+  top: 0;
 }/*# sourceMappingURL=footer.css.map */

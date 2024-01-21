@@ -13,13 +13,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header h1 {
+  font-size: 50px;
+}
 header .logo {
   width: 100px;
   height: 100px;
   border-radius: 20px;
-}
-header h1 {
-  font-size: 50px;
 }
 header nav {
   font-size: 24px;
@@ -32,22 +32,24 @@ header nav ul {
   gap: 30px;
   list-style: none;
 }
-header nav a {
+header nav ul li a {
   text-decoration: none;
   font-size: 24px;
 }
-header nav a a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+header nav ul li a:hover {
+  color: rgb(228, 232, 236);
 }
 
 main {
-  background-color: rgba(132, 26, 150, 0.522);
+  background-color: rgba(177, 129, 129, 0.274);
 }
 main .tittle_0 {
   text-align: center;
 }
-main .tittle_0_p {
+main .tittle_0 .welcome {
+  font-size: 45px;
+}
+main .tittle_0 .tittle_0_p {
   text-align: center;
   font-size: 25px;
   margin: 5px 20px;
@@ -73,6 +75,54 @@ main .card_container {
   align-items: center;
   justify-content: center;
 }
+main .card_container .card_1 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_2 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_3 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_4 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_5 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_6 {
+  position: relative;
+  display: inline-block;
+  transition: 1.5s;
+}
+main .card_container .card_1:hover {
+  transform: translate(-30px, -20px);
+}
+main .card_container .card_2:hover {
+  transform: translate(-30px, -20px);
+}
+main .card_container .card_3:hover {
+  transform: translate(-30px, -20px);
+}
+main .card_container .card_4:hover {
+  transform: translate(-30px, -20px);
+}
+main .card_container .card_5:hover {
+  transform: translate(-30px, -20px);
+}
+main .card_container .card_6:hover {
+  transform: translate(-30px, -20px);
+}
 main .card_container .card {
   display: flex;
   flex-direction: column;
@@ -91,53 +141,8 @@ main .card_container .card .card_p {
   font-size: 35px;
   color: aliceblue;
 }
-main .card_container .card .card_1 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_1 .card_1:hover {
-  transform: translate(50px, 50px);
-}
-main .card_container .card .card_2 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_2 .card_2:hover {
-  transform: translate(50px, 50px);
-}
-main .card_container .card .card_3 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_3 .card_3:hover {
-  transform: translate(50px, 50px);
-}
-main .card_container .card .card_4 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_4 .card_4:hover {
-  transform: translate(50px, 50px);
-}
-main .card_container .card .card_5 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_5 .card_5:hover {
-  transform: translate(50px, 50px);
-}
-main .card_container .card .card_6 {
-  position: relative;
-  display: inline-block;
-  transition: 1.5s;
-}
-main .card_container .card .card_6 .card_6:hover {
-  transform: translate(50px, 50px);
+main .tittle_h2 {
+  text-align: center;
 }
 main .recom_card_container {
   width: 100%;
@@ -150,7 +155,7 @@ main .recom_card_container .recom_card {
   border-radius: 20px;
   background-color: rgba(245, 228, 215, 0.5215686275);
 }
-main .recom_card_container .recom_card .recom_card img {
+main .recom_card_container .recom_card img {
   width: 100%;
   height: 210px;
 }
@@ -188,7 +193,6 @@ main .destiny_container .destiny .destiny_text {
   margin: 20px 50px;
   overflow: hidden;
 }
-
 main .container_info {
   padding: 10px 50px;
 }
@@ -218,17 +222,17 @@ main .card_travel_container .travel_card {
   background-color: #855454;
   overflow: hidden;
 }
-main .card_travel_container .travel_card .travel_card img {
+main .card_travel_container .travel_card img {
   width: 100%;
   height: 350px;
   border-radius: 30px;
 }
-main .card_travel_container .travel_card .travel_card h3 {
+main .card_travel_container .travel_card h3 {
   width: 100%;
   padding: 5px 20px;
   font-size: 30px;
 }
-main .card_travel_container .travel_card .travel_card p {
+main .card_travel_container .travel_card p {
   width: 100%;
   font-weight: bold;
   font-size: 30px;
@@ -246,6 +250,8 @@ footer {
   font-size: 25px;
   padding: 10px;
   text-align: center;
+  position: relative;
+  top: 0;
 }
 
 @media (width <= 1276px) {
