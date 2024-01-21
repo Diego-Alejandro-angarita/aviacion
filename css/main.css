@@ -165,29 +165,34 @@ main .recom_card_container .recom_card .recom_card_text {
 }
 
 main .destiny_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main .destiny_container .destiny{
   display: flex;
   flex-direction: column;
-  margin: 10px 70px;
-  padding-bottom: 20px;
+  background-color: #482f2faf;
+  margin: 25px;
 }
+
 main .destiny_container .destiny .destiny_img_container {
-  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
 }
 main .destiny_container .destiny .destiny_img_container h3 {
-  position: absolute;
-  left: 15%;
+  text-align: center;
   font-size: 80px;
 }
 main .destiny_container .destiny .destiny_img_container img {
-  height: 90vh;
-  border-radius: 30px;
-  padding-right: 10px;
-  max-width: 700px;
+  padding: 5px 25px;
+  width: 100%;
+  border-radius: 15px;
+  max-height: 1000px;
 }
 main .destiny_container .destiny .destiny_text {
-  height: 90vh;
+  background-color: #482f2f00;
   border-radius: 20px;
-  background-color: rgba(163, 107, 97, 0.7294117647);
   padding: 25px 18px;
   text-align: justify;
   margin: 20px 50px;
