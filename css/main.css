@@ -196,7 +196,7 @@ main .destiny_container .destiny .destiny_text {
   padding: 25px 18px;
   text-align: justify;
   margin: 20px 50px;
-  overflow: hidden;
+  font-size: 25px;
 }
 main .container_info {
   padding: 10px 50px;
