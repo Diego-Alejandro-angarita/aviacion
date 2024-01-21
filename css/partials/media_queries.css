@@ -10,16 +10,16 @@
     justify-content: center;
     align-items: center;
   }
-  nav {
+  header nav {
     display: flex;
   }
-  .welcome {
+  main .tittle_0 .welcome {
     padding-left: 100px;
   }
-  .tittle_p {
+  main .tittle_0 .tittle_p {
     padding-left: 100px;
   }
-  .tittle_h2 {
+  main .container .tittle .tittle_h2 {
     padding-left: 100px;
   }
 }
@@ -29,15 +29,15 @@
     flex-direction: column;
     width: 95%;
   }
-  .recom_card {
+  .recom_card_container .recom_card {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .recom_card figure {
+  .recom_card_container .recom_card figure {
     width: 100%;
   }
-  .recom_card_text {
+  .recom_card_container .recom_card .recom_card_text {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;

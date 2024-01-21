@@ -7,12 +7,12 @@ main .destiny_container {
 main .destiny_container .destiny .destiny_img_container {
   padding: 20px 15px;
 }
-main .destiny_container .destiny .destiny_img_container .destiny_img_container h3 {
+main .destiny_container .destiny .destiny_img_container h3 {
   position: absolute;
   left: 15%;
   font-size: 80px;
 }
-main .destiny_container .destiny .destiny_img_container .destiny_img_container img {
+main .destiny_container .destiny .destiny_img_container img {
   height: 90vh;
   border-radius: 30px;
   padding-right: 10px;
