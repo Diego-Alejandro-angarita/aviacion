@@ -36,15 +36,19 @@
         }
     }
         .recom_card_container{
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr;
             flex-direction: column;
             width: 100%;
-            max-width: 550px;
+            max-width: 900px;
+            gap: 16px;
 
             .recom_card{
                 width: 100%;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                max-width: 550px;
+                margin-left: 45px
 
                 figure {
                     width: 100%;
@@ -66,3 +70,14 @@
         }
 
         }
+
+@media (width < 1200px), (width > 1000px) {
+    main{
+        .recom_card_container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 45px
+        }
+    }
+}

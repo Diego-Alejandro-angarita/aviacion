@@ -23,18 +23,20 @@
     padding-left: 100px;
   }
   .recom_card_container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     flex-direction: column;
     width: 100%;
-    max-width: 550px;
+    max-width: 900px;
+    gap: 16px;
   }
   .recom_card_container .recom_card {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  .recom_card_container .recom_card figure {
-    width: 100%;
+    max-width: 550px;
+    margin-left: 45px figure;
+    margin-left-width: 100%;
   }
   .recom_card_container .recom_card .recom_card_text {
     display: flex;
@@ -45,5 +47,13 @@
   .card_travel_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (width < 1200px), (width > 1000px) {
+  main .recom_card_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 45px;
   }
 }/*# sourceMappingURL=media_queries.css.map */
