@@ -39,14 +39,13 @@
     @media (min-width: 320px), (max-width: 1024px) {
         .recom_card_container{
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
             width: 100%;
 
             .recom_card{
                 width: 100%;
-                display: grid;
-                grid-template-columns: 1fr;
+                display: flex;
+                flex-wrap: wrap;
 
                 figure {
                     width: 100%;
