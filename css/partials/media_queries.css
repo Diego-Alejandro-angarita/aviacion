@@ -28,11 +28,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 550px;
   }
   .recom_card_container .recom_card {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .recom_card_container .recom_card figure {
     width: 100%;
