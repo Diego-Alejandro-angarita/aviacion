@@ -39,6 +39,7 @@
     @media (min-width: 320px), (max-width: 1024px) {
         .recom_card_container{
             display: flex;
+            flex-wrap: wrap;
             flex-direction: column;
             width: 100%;
 
@@ -53,7 +54,6 @@
 
                 .recom_card_text{
                     display: flex;
-                    flex-wrap: wrap;
                     gap: .75rem;
                     justify-content: center;
                     align-items: center;
