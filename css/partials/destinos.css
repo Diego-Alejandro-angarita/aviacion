@@ -1,29 +1,28 @@
 main .destiny_container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin: 10px 70px;
   padding-bottom: 20px;
+}
+main .destiny_container .destiny {
+  display: grid;
 }
 main .destiny_container .destiny .destiny_img_container {
   padding: 20px 15px;
 }
 main .destiny_container .destiny .destiny_img_container h3 {
-  position: absolute;
-  left: 15%;
+  text-align: center;
   font-size: 80px;
 }
 main .destiny_container .destiny .destiny_img_container img {
-  height: 90vh;
   border-radius: 30px;
   padding-right: 10px;
   max-width: 700px;
 }
 main .destiny_container .destiny .destiny_text {
-  height: 90vh;
   border-radius: 20px;
   background-color: rgba(163, 107, 97, 0.7294117647);
   padding: 25px 18px;
   text-align: justify;
   margin: 20px 50px;
-  overflow: hidden;
 }/*# sourceMappingURL=destinos.css.map */
