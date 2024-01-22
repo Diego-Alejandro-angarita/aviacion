@@ -49,35 +49,26 @@
                 grid-template-columns: 1fr 1fr;
                 max-width: 550px;
                 margin-left: 45px
-
-                figure {
-                    width: 100%;
-                }
-
-                .recom_card_text{
-                    display: flex;
-                    gap: .75rem;
-                    justify-content: center;
-                    align-items: center;
-                }
             }
         }
 
-
-        .card_travel_container{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
         }
 
-        }
-
-@media (width < 1280px), (width > 1000px) {
+@media (width > 1000px) {
     main{
         .recom_card_container{
             width: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr;
             margin-left: 45px
+        }
+    }
+
+    @media (width: 1440px), (width: 1600px), (width: 2560px) {
+        main{
+            .recom_card_container{
+                display: flex;
+            }
         }
     }
 }

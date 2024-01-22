@@ -35,25 +35,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 550px;
-    margin-left: 45px figure;
-    margin-left-width: 100%;
-  }
-  .recom_card_container .recom_card .recom_card_text {
-    display: flex;
-    gap: 0.75rem;
-    justify-content: center;
-    align-items: center;
-  }
-  .card_travel_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin-left: 45px;
   }
 }
-@media (width < 1280px), (width > 1000px) {
+@media (width > 1000px) {
   main .recom_card_container {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 45px;
+  }
+}
+@media (width > 1000px) and (width: 1440px), (width > 1000px) and (width: 1600px), (width > 1000px) and (width: 2560px) {
+  main .recom_card_container {
+    display: flex;
   }
 }/*# sourceMappingURL=media_queries.css.map */
