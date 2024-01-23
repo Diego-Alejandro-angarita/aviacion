@@ -81,18 +81,18 @@ main .card_container .card_5:hover {
 main .card_container .card_6:hover {
   transform: translate(-30px, -20px);
 }
-main .card_container .card {
+main .card_container .card_index {
   display: flex;
   flex-direction: column;
 }
-main .card_container .card .card_img {
+main .card_container .card_index .card_img {
   width: 400px;
   height: 250px;
   border-radius: 20px;
   padding: 5px;
   margin: 15px 70px;
 }
-main .card_container .card .card_p {
+main .card_container .card_index .card_p {
   position: absolute;
   bottom: 40px;
   left: 90px;
