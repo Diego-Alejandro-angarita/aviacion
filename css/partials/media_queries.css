@@ -22,7 +22,7 @@
   main .container .tittle .tittle_h2 {
     padding-left: 100px;
   }
-  .recom_card_container {
+  main .recom_card_container {
     display: grid;
     grid-template-columns: 1fr;
     flex-direction: column;
@@ -30,7 +30,7 @@
     max-width: 900px;
     gap: 16px;
   }
-  .recom_card_container .recom_card {
+  main .recom_card_container .recom_card {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,7 +38,7 @@
     margin-left: 45px;
   }
 }
-@media (width > 1000px) {
+@media (width <= 1276px) and (width > 1000px) {
   main .recom_card_container {
     width: 100%;
     display: grid;
@@ -46,8 +46,16 @@
     margin-left: 45px;
   }
 }
-@media (width > 1000px) and (width: 1440px), (width > 1000px) and (width: 1600px), (width > 1000px) and (width: 2560px) {
+@media (width <= 1276px) and (width > 1000px) and (width: 1440px), (width <= 1276px) and (width > 1000px) and (width: 1600px), (width <= 1276px) and (width > 1000px) and (width: 2560px) {
   main .recom_card_container {
     display: flex;
+  }
+}
+@media (max-width: 500px) {
+  main .destiny_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
   }
 }/*# sourceMappingURL=media_queries.css.map */
