@@ -204,8 +204,10 @@ main .card_travel_container .travel_card {
   background-color: #855454;
   overflow: hidden;
 }
-main .card_travel_container .travel_card img {
+main .card_travel_container .travel_card figure img {
   min-width: 100%;
+  max-width: 800px;
+  min-width: 800px;
   height: 350px;
   border-radius: 30px;
 }
