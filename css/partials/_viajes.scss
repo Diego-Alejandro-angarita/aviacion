@@ -6,6 +6,7 @@ main{
     }
     
     .card_travel_container{
+        background-color: $color_principal;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         width: 100%;

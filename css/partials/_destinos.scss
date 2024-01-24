@@ -1,9 +1,9 @@
 main{
     .destiny_container{
+        background-color: $color_principal;
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
-        align-items: center;
         justify-content: center;
         margin: auto;
 
