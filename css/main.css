@@ -205,7 +205,7 @@ main .card_travel_container .travel_card {
   overflow: hidden;
 }
 main .card_travel_container .travel_card img {
-  width: 100%;
+  min-width: 490px;
   height: 350px;
   border-radius: 30px;
 }
