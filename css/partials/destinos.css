@@ -4,7 +4,7 @@ main .destiny_coontainer {
   gap: 15px;
   align-items: center;
   justify-content: center;
-  margin: 15px 45px;
+  margin: auto;
 }
 main .destiny_coontainer .destiniy_card {
   max-height: 1000px;

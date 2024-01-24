@@ -52,6 +52,11 @@
             }
         }
 
+        .card_travel_container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
     }
 
 @media (width > 1000px) {

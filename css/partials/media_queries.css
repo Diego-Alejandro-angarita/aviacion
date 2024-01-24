@@ -37,6 +37,10 @@
     max-width: 550px;
     margin-left: 45px;
   }
+  main .card_travel_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (width <= 1276px) and (width > 1000px) {
   main .recom_card_container {
