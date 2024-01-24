@@ -165,7 +165,6 @@ main .recom_card_container .recom_card .recom_card_text {
 }
 
 main .destiny_container {
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
