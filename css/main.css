@@ -52,7 +52,7 @@ main .tittle_0 .welcome {
 main .tittle_0 .tittle_0_p {
   text-align: center;
   font-size: 25px;
-  padding: 5px 10px;
+  margin: 5px 10px;
 }
 main .tittle {
   text-align: center;
@@ -243,6 +243,7 @@ footer {
 
 @media (width <= 1276px) {
   * {
+    width: -moz-fit-content;
     width: fit-content;
   }
   header {
